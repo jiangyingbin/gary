@@ -1,0 +1,6 @@
+.fl{flex-grow: 0.5;}
+*{margin: 0; padding: 0;}
+img {width: 100%; height:auto;margin-bottom: 10px;}
+#container { display: flex; flex-direction: row; width: 100%; flex-wrap: wrap;background: #000000;} 
+.acolumn { display: flex; flex-direction: column; width: calc(90%/4);margin-right: 2%;}
+#container div:first-child {margin-left: 2%;}
